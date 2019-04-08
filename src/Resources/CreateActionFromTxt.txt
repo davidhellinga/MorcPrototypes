@@ -3,8 +3,6 @@
 // Define Magic Card as: MagicCard String.name=<name> Int.manacost=<manacost> Int.power=<power> Int.toughness=<toughness> ICardContainer.container=<name of container>
 // Define Move as: Move ICardContainer.source=<source name> ICardContainer.target=<target name> ICard.card=<card name>
 
-
-
 // add decks
 Deck String.name=Hand
 Deck String.name=DrawPile
