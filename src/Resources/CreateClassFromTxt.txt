@@ -1,0 +1,3 @@
+Card String.name=Ace Int.value=11
+MagicCard String.name=BlightsteelColossus Int.manacost=12 Int.power=11 Int.toughness=11
+MagicCard String.name=Jace Int.manacost=6 Int.power=4 Int.toughness=4

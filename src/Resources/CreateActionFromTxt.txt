@@ -1,0 +1,17 @@
+// Define Deck as: Deck String.name=<name>
+// Define Card as: Card String.name=<name> Int.value=<value> ICardContainer.container=<name of container>
+// Define Magic Card as: MagicCard String.name=<name> Int.manacost=<manacost> Int.power=<power> Int.toughness=<toughness> ICardContainer.container=<name of container>
+// Define Move as: Move ICardContainer.source=<source name> ICardContainer.target=<target name> ICard.card=<card name>
+
+
+
+// add decks
+Deck String.name=Hand
+Deck String.name=DrawPile
+// add cards to decks
+Card String.name=Ace Int.value=11 ICardContainer.container=Hand
+Card String.name=Jack Int.value=10 ICardContainer.container=DrawPile
+MagicCard String.name=Jace Int.manacost=5 Int.power=4 Int.toughness=6 ICardContainer.container=Hand
+MagicCard String.name=Acej Int.manacost=5 Int.power=6 Int.toughness=4 ICardContainer.container=DrawPile
+// move a card from first to second deck
+Move ICardContainer.source=DrawPile ICardContainer.target=Hand ICard.card=Jack
